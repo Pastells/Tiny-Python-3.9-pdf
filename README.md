@@ -2,7 +2,9 @@
 Tiny Python 3.9 Notebook
 ========================
 
-This repository contains the text for the *Tiny Python 3.9 Notebook*.
+This repository contains the text for the *Tiny Python 3.9 Notebook* adapted for compilation to pdf with pandoc:
+
+`pandoc -s python39.rst -o python39.pdf -V geometry:margin=2cm`
 
 <img src="img/tinypy39-iso.png" width="30%">
 

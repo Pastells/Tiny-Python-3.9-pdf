@@ -167,7 +167,8 @@ Floats in general are approximations, though since Python 3.1, they are rounded 
 
 .. raw:: latex
 
-   \Needspace{5\baselineskip}
+   %\Needspace{5\baselineskip}
+   \clearpage
 
 ..  longtable: format: {r l}
 
@@ -275,7 +276,8 @@ Python 3 strings hold Unicode data. Python has a few ways to represent strings. 
 
 .. raw:: latex
 
-   \Needspace{10\baselineskip}
+   %\Needspace{10\baselineskip}
+   \clearpage
 
 
 ..  longtable: format: {r l}
@@ -351,7 +353,8 @@ Python 3 strings hold Unicode data. Python has a few ways to represent strings. 
 
 .. raw:: latex
 
-   \Needspace{5\baselineskip}
+   %\Needspace{5\baselineskip}
+   \clearpage
 
 
 ..  longtable: format: {>{\hangindent=1em\hangafter=1\raggedright\arraybackslash }p{.3\textwidth} >{\hangindent=1em\hangafter=1\raggedright\arraybackslash }p{.6\textwidth}}
@@ -461,7 +464,8 @@ We can also do *slicing* operations on most sequences::
  
 .. raw:: latex
 
-   \Needspace{5\baselineskip}
+   %\Needspace{5\baselineskip}
+   \clearpage
 
 
 ..  longtable: format: {p{.25\textwidth} l >{\raggedright\arraybackslash}p{.35\textwidth}}
@@ -498,11 +502,9 @@ We can also do *slicing* operations on most sequences::
   ``str(l)``                         ``__str__``               User friendly string
   ================================== ========================= ============================================================
 
-..  longtable: format: {p{.4\textwidth} p{.55\textwidth}}
-
-..  longtable: format: {>{\hangindent=1em\hangafter=1 }p{.4\textwidth} >{\hangindent=1em\hangafter=1 }p{.55\textwidth}}
 
 .. table:: List Methods
+   :widths: 25 40
   
   ============================================================ ============================================================
   Operation                                                    Result
@@ -764,7 +766,8 @@ Sets are useful because they provide *set operations*, such as union
 
 .. raw:: latex
 
-   \Needspace{10\baselineskip}
+   %\Needspace{10\baselineskip}
+   \clearpage
 
 
 .. note::
@@ -852,11 +855,8 @@ Built in Functions
 
 In the default namespace you have access to various callables:
 
-..  longtable: format: {p{.35\textwidth} p{.55\textwidth}}
-
-..  longtable: format: {>{\hangindent=1em\hangafter=1\raggedright\arraybackslash }p{.35\textwidth}  >{\hangindent=1em\hangafter=1\raggedright\arraybackslash }p{.55\textwidth}}
-
 .. table:: Built in callables
+   :widths: 25 40
   
   ================================================================= ============================================================
   Operation                                                         Result
@@ -1068,36 +1068,36 @@ You can provide a format specification following a colon. The grammar for format
 
 The following table lists the field meanings.
 
-..  longtable: format: {>{\hangindent=1em\hangafter=1\raggedright\arraybackslash }r >{\hangindent=1em\hangafter=1\raggedright\arraybackslash}p{.55\textwidth}}
+.. table:: Field meanings
+   :widths: 25 40
 
-
-=================== =================================
-Field               Meaning
-=================== =================================
-fill                Character used to fill in
-                    ``align`` (default is space)
-align               Alight output ``<`` (left align),
-                    ``>`` (right align),
-                    ``^`` (center align), or
-                    ``=`` (put padding after sign)
-sign                For numbers ``+`` (show sign
-                    on both positive and negative
-                    numbers,
-                    ``-`` (default, only on negative), or
-                    *space* (leading space for
-                    positive, sign on negative)
-#                   Prefix integers. ``0b`` (binary),
-                    ``0o`` (octal), or ``0x`` (hex)
-0                   Enable zero padding
-width               Minimum field width
-grouping_option     Number separator ``,`` (use comma for thousands
-                    separator), ``_`` (Use underscore
-                    for thousands separator)
-.precision          For floats (digits after period (floats),
-                    for non-numerics (max length)
-type                Number type or ``s`` (string format default)
-                    see Integer and Float charts
-=================== =================================
+  =================== =================================
+  Field               Meaning
+  =================== =================================
+  fill                Character used to fill in
+                      ``align`` (default is space)
+  align               Alight output ``<`` (left align),
+                      ``>`` (right align),
+                      ``^`` (center align), or
+                      ``=`` (put padding after sign)
+  sign                For numbers ``+`` (show sign
+                      on both positive and negative
+                      numbers,
+                      ``-`` (default, only on negative), or
+                      *space* (leading space for
+                      positive, sign on negative)
+  #                   Prefix integers. ``0b`` (binary),
+                      ``0o`` (octal), or ``0x`` (hex)
+  0                   Enable zero padding
+  width               Minimum field width
+  grouping_option     Number separator ``,`` (use comma for thousands
+                      separator), ``_`` (Use underscore
+                      for thousands separator)
+  .precision          For floats (digits after period (floats),
+                      for non-numerics (max length)
+  type                Number type or ``s`` (string format default)
+                      see Integer and Float charts
+  =================== =================================
 
 The tables below lists the various options we have for formatting integer and floating point numbers.
 
@@ -1117,7 +1117,8 @@ Integer Types       Meaning
 
 .. raw:: latex
 
-   \Needspace{5\baselineskip}
+   %\Needspace{5\baselineskip}
+   \clearpage
 
 
 
@@ -1214,11 +1215,8 @@ With an opened text file, you can iterate over the lines. This saves memory as t
   'Ringo\n'
   'George\n'
 
-..  longtable: format: {p{.25\textwidth} p{.65\textwidth}}
-
-..  longtable: format: {>{\hangindent=1em\hangafter=1\raggedright\arraybackslash }p{.25\textwidth}  >{\hangindent=1em\hangafter=1\raggedright\arraybackslash }p{.65\textwidth}}
-
 .. table:: File Methods/Attributes
+   :widths: 25 40
   
   ================================================================= ============================================================
   Operation                                                         Result
@@ -1403,7 +1401,8 @@ The following two examples are the equivalent::
 
 .. raw:: latex
 
-   \Needspace{5\baselineskip}
+   %\Needspace{5\baselineskip}
+   \clearpage
 
 The following two examples are the equivalent::
 
